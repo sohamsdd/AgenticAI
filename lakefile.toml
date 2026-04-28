@@ -1,0 +1,11 @@
+name = "Lean4CodeGenerator"
+version = "0.1.0"
+defaultTargets = ["Lean4CodeGenerator"]
+
+[[lean_lib]]
+name = "Lean4CodeGenerator"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.18.0"
